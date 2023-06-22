@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.side-right-services {
+  margin-left: 60px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#circle3 {
+  background-color: hsl(228, 100%, 84%);
+  color: black;
+  border: none;
+}

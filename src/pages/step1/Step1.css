@@ -1,0 +1,14 @@
+#circle1 {
+  background-color: hsl(228, 100%, 84%);
+  color: black;
+  border: none;
+}
+
+.side-right {
+  > .btn {
+    justify-content: flex-end;
+    > .next {
+      text-decoration: none;
+    }
+  }
+}

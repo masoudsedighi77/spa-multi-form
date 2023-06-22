@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.service-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  border: 1px solid black;
+  height: 70px;
+  width: 350px;
+  border-radius: 7px;
+}
+#vehicle1 {
+  width: 25px;
+  height: 25px;
+  margin-left: 17px;
+}
+.service-description {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  /* margin-left: 20px; */
+
+}
+.service-description-span {
+  font-weight: 700;
+}
+.service-description-p {
+  font-size: 10px;
+  color: hsl(231, 11%, 63%);
+}
+.service-price{
+    color: hsl(231, 11%, 63%);
+    font-weight: 500;
+    margin-right: 20px;
+}

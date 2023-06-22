@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+.side-right-widget {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  margin-left: 60px;
+}
+
+
+  #circle2 {
+    background-color: hsl(228, 100%, 84%);
+    color: black;
+    border: none;
+  }
+
+.side-right-switch {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(199, 192, 192, 0.2);
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  width: 400px;
+  padding: 4px 105px;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+#month {
+  color: hsl(235, 5%, 51%);
+}
+#year {
+  color: hsl(213, 96%, 18%);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider switch */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: hsl(213, 96%, 18%);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.btn {
+  margin-top: 100px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  /* background-color: red; */
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.back {
+  border: none;
+  background-color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  margin-right: 200px;
+  font-weight: 700;
+  color: rgb(85, 81, 81);
+}
+.back:hover {
+  color: hsl(243, 100%, 62%);
+  cursor: pointer;
+}
+.next {
+  background-color: hsl(243, 100%, 62%);
+  border: none;
+  padding: 9px 19px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: white;
+  border-radius: 7px;
+}
+.next:hover {
+  cursor: pointer;
+}

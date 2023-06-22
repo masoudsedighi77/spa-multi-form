@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.confirm-container{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px;
+}
+.confirm-logo{
+    width: 80px;
+    margin-top: 100px;
+}
+.confirm-span{
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(213, 96%, 18%);
+    margin-top: 30px;
+}
+.confirm-p{
+    color: hsl(231, 11%, 63%);
+margin-top: 20px;
+}
